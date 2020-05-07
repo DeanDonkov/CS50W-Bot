@@ -12,6 +12,7 @@ client.on("message", (msg) => {
   if (msg.content === "ping") {
     msg.reply("pong");
   }
+});
  
 //Help command
   
@@ -29,6 +30,7 @@ client.on("message", (msg) => {
 
     msg.reply(command_list);
   }
+});
   client.on("message", (msg) => {
   if (msg.content === "/project0") {
     msg.reply("#project-0 Project Homepage link:https://docs.cs50.net/web/2020/x/projects/0/project0.html");
